@@ -4309,6 +4309,10 @@ function startApp() {
   showGate();
 })();
 </script>
+<footer style="position:fixed;right:14px;bottom:10px;z-index:60;display:flex;gap:10px;align-items:center;font-size:12px;color:#8b93a7;background:rgba(10,13,20,.72);border:1px solid rgba(255,255,255,.08);border-radius:999px;padding:5px 12px">
+  <span>AGPL-3.0 · 源码公开</span>
+  <a href="https://github.com/CHANGE_ME/hchimao-studio" target="_blank" rel="noopener" style="color:#e8b25a;text-decoration:none">取源码 / 对应版本</a>
+</footer>
 </body>
 </html>
 """
