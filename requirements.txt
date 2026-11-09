@@ -1,0 +1,34 @@
+# Hchimao_auto_Studio — Python 依赖清单（Python 3.11 / Windows x64）
+#
+# 用途：当前只有 .venv（不可搬迁），这份清单让环境可重建。
+# 安装：powershell -ExecutionPolicy Bypass -File setup.ps1
+# 手动：python -m venv .venv
+#       .venv\Scripts\pip install -r requirements.txt
+#
+# 注意：NudeNet 的检测结果对 numpy / onnxruntime / opencv 版本敏感，
+#       改动这几行前先跑一次 app\selftest.py 回归。
+
+anyio==4.16.0
+click==8.5.0
+colorama==0.4.6
+filelock==4.2.8
+flatbuffers==25.12.19
+fsspec==2026.9.0
+h11==0.16.0
+hf-xet==1.8.0
+httpcore2==2.16.0
+httpx2==2.16.0
+huggingface_hub==2.4.0
+idna==3.20
+imageio-ffmpeg==0.8.1
+numpy==2.4.6
+onnxruntime==1.31.1
+opencv-python==5.0.0.93
+packaging==26.3
+pillow==13.0.0
+protobuf==7.36.2
+PyYAML==6.0.3
+tokenizers==0.23.3
+tqdm==4.70.1
+truststore==0.10.5
+typing_extensions==4.16.0
