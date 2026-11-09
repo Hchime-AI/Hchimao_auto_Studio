@@ -4,7 +4,7 @@
 
 界面是一个本地网页（`http://127.0.0.1:端口`），双击 bat 启动即可，不需要装数据库、不需要联网（除首次下载模型）。
 
-**作者**：Hchime-AI × DSH ｜ **版本**：V1.5.0 ｜ **许可**：AGPL-3.0-or-later（见 [LICENSE](LICENSE)）
+**作者**：Hchime-AI × DSH ｜ **版本**：V1.5.0 ｜ **许可**：PolyForm Small Business 1.0.0（见 [LICENSE](LICENSE)）
 
 > 本软件为独立开发项目：界面、仓库/工作区、AI 编辑、手绘引擎、批量水印、封面、排序、
 > 账号与多语言、导出与缓存体系全部为本项目原创实现。
@@ -232,6 +232,6 @@ python app\webui.py 8090 --lan     :: 允许局域网访问
 ## 许可与署名
 
 - 本软件：**Hchimao Auto Censor Studio V1.5.0**，作者 **Hchime-AI × DSH**。
-- 主程序许可：**AGPL-3.0-or-later**（全文见 [LICENSE](LICENSE)）。可自由使用、修改、分发、收费提供；对外提供服务时需向用户提供对应版本的源码。
+- 主程序许可：**PolyForm Small Business 1.0.0**（全文见 [LICENSE](LICENSE)）。个人与「从业人员<100 且年营收<100 万美元」的公司免费可用；超过门槛需商业授权；不得当作竞争产品转售。
 - 第三方组件：ONNX Runtime（MIT）、OpenCV（Apache-2.0）、Pillow（HPND）、NumPy（BSD-3-Clause）、tokenizers（Apache-2.0），见 `THIRD_PARTY.md`。
-- **打码模型应用部分**：检测模型 NudeNet（notAI-tech）及其权重，许可 AGPL-3.0，版权归其作者；本软件只做本地加载与调用，不修改其算法。因其与本项目同属 AGPL-3.0，**分发与托管均无需额外处理**；若将来要闭源商用，按 `THIRD_PARTY.md` 末尾的两条路径改造。
+- **打码模型应用部分**：检测模型 NudeNet（notAI-tech）及其权重，许可 AGPL-3.0，版权归其作者；本软件只做本地加载与调用，不修改其算法。注意它与本项目**不同许可**：同进程分发时整包须按 AGPL-3.0 处理；要闭源卖，先按 `THIRD_PARTY.md` 第 2 节把它拆成独立进程或换检测器。
